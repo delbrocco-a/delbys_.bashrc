@@ -1,6 +1,6 @@
 ---
 
-# Delb'y's .bashrc
+# _Delb'y's .bashrc_
 
 ---
 
