@@ -5,7 +5,7 @@
 
 # ---
 
-## RHEL/Fedora Family Boilerplate (skip to ln24)
+## RHEL/Fedora Family Boilerplate (skip to ln25)
 
 ### Source global definitions (NB! Specific to fedora linux systems)
 if [ -f /etc/bashrc ]; then
