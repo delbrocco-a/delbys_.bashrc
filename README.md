@@ -20,12 +20,12 @@ Alternatively, if you're already running a linux machine, it can be installed us
 ## Specification
 *What it actually does*
 
-- Per prompt: |{HH:MM}-[hostname:/{pwd\2}]$ 
-  - Cyan '|' marker on every prompt to make skimming swathes of plaintext from prompts slightly easier.
-  - HH:MM timestamps to see when a command was submitted
-  - Hostname to keep track of which terminal is remote etc
+- Per prompt: ```|{HH:MM}-[hostname:/{pwd\2}]$ ```
+  - Cyan ```|``` marker on every prompt to make skimming swathes of plaintext from prompts slightly easier.
+  - ```HH:MM``` timestamps to see when a command was submitted
+  - ```Hostname``` to keep track of which terminal is remote etc
   - Printed working directories trimmed to 2 to reduce line fodder
-  - Mandatory '$' character (although I would change it to £ if such were ASCII)
+  - Mandatory ```$``` character (although I would change it to ```£``` if such were ASCII)
 
 - Listing Colours:
   - Directories: Cyan
