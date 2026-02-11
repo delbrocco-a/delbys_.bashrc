@@ -32,7 +32,7 @@ PROMPT_DIRTRIM=2
 export LS_COLORS="di=36:ex=32:fi=1:ln=35"
 
 function cd {
-    builtin cd "$@" && ls
+    builtin cd "$@" && echo -n "|-> " && pwd && ls
 }
 
 ## ============================================================================
