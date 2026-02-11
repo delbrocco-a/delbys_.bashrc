@@ -7,7 +7,7 @@
 ## Description
 *It's just a config file*
 
-Here is my .bashrc file containing my bash prompt and listing predilections, typically for fedora linux machines. This configuration was made specifically with variants of **JetBrains Mono** in mind, which can be downloaded from:
+Here is my .bashrc file containing my bash prompt and listing predilections, as well as a custom cd function for my bash terminals. This configuration was made specifically with variants of **JetBrains Mono** in mind, which can be downloaded from:
 
 > https://www.jetbrains.com/lp/mono/
 
@@ -31,7 +31,12 @@ Alternatively, if you're already running a linux machine, it can be installed us
   - Directories: Cyan
   - Executables: Green
   - Regular Files: bold or bright white
-  - Symbolic Links: magenta 
+  - Symbolic Links: magenta
+ 
+- Custom cd:
+  - <cd> Change directory (as standard)
+  - <pwd> Prints working directory (with echo decorations)
+  - <ls> List's the contents of the current directory moved to
 
 ## Documentation
 *If you're interested in tinkering with it*
