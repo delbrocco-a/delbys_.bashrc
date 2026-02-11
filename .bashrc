@@ -31,6 +31,7 @@ PROMPT_DIRTRIM=2
 ### 4 colour scheme: dirs = cyan, exe = green, file = bold, links = purple
 export LS_COLORS="di=36:ex=32:fi=1:ln=35"
 
+### Custom cd function
 function cd {
     builtin cd "$@" && echo -n "|-> " && pwd && ls
 }
